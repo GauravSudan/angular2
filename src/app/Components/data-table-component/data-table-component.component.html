@@ -1,0 +1,17 @@
+<p>Welcome {{username}}</p>
+
+Error msg: {{errorMsg}}
+<table class="table table-bordered border-primary">
+    <thead *ngIf="empData != null">
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let emp of empData">
+        <td>{{emp.id}}</td>
+        <td>{{emp.Name}}</td>
+      </tr>
+    </tbody>
+  </table>
