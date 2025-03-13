@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./comp1.component.scss']
 })
 export class Comp1Component {
-  msg: string = "Welcome CI/CD Trial";
+  msg: string = "Welcome CI/CD Trial 1";
   myModel="";
  public user: string = ""
  showLoginbtn: boolean = false;
